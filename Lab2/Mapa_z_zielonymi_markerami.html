@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ceecb8c5b3a8571111c430c19806b29b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_ceecb8c5b3a8571111c430c19806b29b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_ceecb8c5b3a8571111c430c19806b29b = L.map(
+                "map_ceecb8c5b3a8571111c430c19806b29b",
+                {
+                    center: [50.049, 21.98],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_20fb064cde4a6ffa2de19eb722a29f9d = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_20fb064cde4a6ffa2de19eb722a29f9d.addTo(map_ceecb8c5b3a8571111c430c19806b29b);
+        
+    
+            var marker_3fbbad124ddf81a514843784410022be = L.marker(
+                [50.041187, 21.999121],
+                {}
+            ).addTo(map_ceecb8c5b3a8571111c430c19806b29b);
+        
+    
+            var icon_548625098c595d47e34e1e36e70d90d3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3fbbad124ddf81a514843784410022be.setIcon(icon_548625098c595d47e34e1e36e70d90d3);
+        
+    
+        var popup_9b3254de9695031cfd2d87659056589f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1cc712e5abe872169bf74a36d98079a1 = $(`<div id="html_1cc712e5abe872169bf74a36d98079a1" style="width: 100.0%; height: 100.0%;">Stolica Podkarpacia</div>`)[0];
+                popup_9b3254de9695031cfd2d87659056589f.setContent(html_1cc712e5abe872169bf74a36d98079a1);
+            
+        
+
+        marker_3fbbad124ddf81a514843784410022be.bindPopup(popup_9b3254de9695031cfd2d87659056589f)
+        ;
+
+        
+    
+    
+            marker_3fbbad124ddf81a514843784410022be.bindTooltip(
+                `<div>
+                     Rzeszów
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_916885ddaf541c11d4f34a9413a94f28 = L.marker(
+                [50.54128, 22.72203],
+                {}
+            ).addTo(map_ceecb8c5b3a8571111c430c19806b29b);
+        
+    
+            var icon_3e1d5a836f25e1ebc50fd6064c99f430 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_916885ddaf541c11d4f34a9413a94f28.setIcon(icon_3e1d5a836f25e1ebc50fd6064c99f430);
+        
+    
+        var popup_c01ac05b620e30ff48fb0d397a9dcc26 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e74be334c558be66848681d5dc3ac47b = $(`<div id="html_e74be334c558be66848681d5dc3ac47b" style="width: 100.0%; height: 100.0%;">Jakieś zadupie XD</div>`)[0];
+                popup_c01ac05b620e30ff48fb0d397a9dcc26.setContent(html_e74be334c558be66848681d5dc3ac47b);
+            
+        
+
+        marker_916885ddaf541c11d4f34a9413a94f28.bindPopup(popup_c01ac05b620e30ff48fb0d397a9dcc26)
+        ;
+
+        
+    
+    
+            marker_916885ddaf541c11d4f34a9413a94f28.bindTooltip(
+                `<div>
+                     Biłgoraj
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

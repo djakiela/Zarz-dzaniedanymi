@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e06d410f47035f0763fea660f324cf84 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_e06d410f47035f0763fea660f324cf84" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e06d410f47035f0763fea660f324cf84 = L.map(
+                "map_e06d410f47035f0763fea660f324cf84",
+                {
+                    center: [50.0614, 19.9372],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c0983fb08c7ac75a3b06868603ce45f1 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_c0983fb08c7ac75a3b06868603ce45f1.addTo(map_e06d410f47035f0763fea660f324cf84);
+        
+    
+            var marker_a3a1983cd5735f179667301caacd1bd2 = L.marker(
+                [49.6835, 21.7661],
+                {}
+            ).addTo(map_e06d410f47035f0763fea660f324cf84);
+        
+    
+            var icon_2773c1839f7c90217a3e70f838a72a78 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_a3a1983cd5735f179667301caacd1bd2.setIcon(icon_2773c1839f7c90217a3e70f838a72a78);
+        
+    
+        var popup_deae1c7809d5eece274f0efa2380f5a7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_afe1b1d2b7f556d850c525925de84c1b = $(`<div id="html_afe1b1d2b7f556d850c525925de84c1b" style="width: 100.0%; height: 100.0%;">Krosno</div>`)[0];
+                popup_deae1c7809d5eece274f0efa2380f5a7.setContent(html_afe1b1d2b7f556d850c525925de84c1b);
+            
+        
+
+        marker_a3a1983cd5735f179667301caacd1bd2.bindPopup(popup_deae1c7809d5eece274f0efa2380f5a7)
+        ;
+
+        
+    
+    
+            marker_a3a1983cd5735f179667301caacd1bd2.bindTooltip(
+                `<div>
+                     Krosno- warto odwiedzić
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f8aeb66d9b7f24c26271485de46329d0 = L.marker(
+                [49.895, 22.3308],
+                {}
+            ).addTo(map_e06d410f47035f0763fea660f324cf84);
+        
+    
+            var icon_d018fdcdef95782390240d52cf25c137 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_f8aeb66d9b7f24c26271485de46329d0.setIcon(icon_d018fdcdef95782390240d52cf25c137);
+        
+    
+        var popup_27219899cc134d8d27793a0ee36f8918 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0a78fee6cbe8226fcc9106262b790361 = $(`<div id="html_0a78fee6cbe8226fcc9106262b790361" style="width: 100.0%; height: 100.0%;">Bałucianka</div>`)[0];
+                popup_27219899cc134d8d27793a0ee36f8918.setContent(html_0a78fee6cbe8226fcc9106262b790361);
+            
+        
+
+        marker_f8aeb66d9b7f24c26271485de46329d0.bindPopup(popup_27219899cc134d8d27793a0ee36f8918)
+        ;
+
+        
+    
+    
+            marker_f8aeb66d9b7f24c26271485de46329d0.bindTooltip(
+                `<div>
+                     Bałucianka- warto odwiedzić
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3fb080d9bd00da238a561d7eb08dea87 = L.marker(
+                [50.0614, 19.9372],
+                {}
+            ).addTo(map_e06d410f47035f0763fea660f324cf84);
+        
+    
+            var icon_aacc0291b66c381c57bcf67a7893dd7c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_3fb080d9bd00da238a561d7eb08dea87.setIcon(icon_aacc0291b66c381c57bcf67a7893dd7c);
+        
+    
+        var popup_e903b9b8c51e0ca04761edabb2d15bce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_928e39759a9b476d1139787b5701a01a = $(`<div id="html_928e39759a9b476d1139787b5701a01a" style="width: 100.0%; height: 100.0%;">Kraków</div>`)[0];
+                popup_e903b9b8c51e0ca04761edabb2d15bce.setContent(html_928e39759a9b476d1139787b5701a01a);
+            
+        
+
+        marker_3fb080d9bd00da238a561d7eb08dea87.bindPopup(popup_e903b9b8c51e0ca04761edabb2d15bce)
+        ;
+
+        
+    
+    
+            marker_3fb080d9bd00da238a561d7eb08dea87.bindTooltip(
+                `<div>
+                     Kraków- warto odwiedzić
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d26e261a5d892f97fc335204891add33 = L.marker(
+                [51.2465, 22.5684],
+                {}
+            ).addTo(map_e06d410f47035f0763fea660f324cf84);
+        
+    
+            var icon_2dd612a27abb8aa16b5d79e35766674e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_d26e261a5d892f97fc335204891add33.setIcon(icon_2dd612a27abb8aa16b5d79e35766674e);
+        
+    
+        var popup_380f6e54e79e33175dcbb77470da67e4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_45514544c088b19efbf9d4f4198484c5 = $(`<div id="html_45514544c088b19efbf9d4f4198484c5" style="width: 100.0%; height: 100.0%;">Lublin</div>`)[0];
+                popup_380f6e54e79e33175dcbb77470da67e4.setContent(html_45514544c088b19efbf9d4f4198484c5);
+            
+        
+
+        marker_d26e261a5d892f97fc335204891add33.bindPopup(popup_380f6e54e79e33175dcbb77470da67e4)
+        ;
+
+        
+    
+    
+            marker_d26e261a5d892f97fc335204891add33.bindTooltip(
+                `<div>
+                     Lublin- warto odwiedzić
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
