@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+sqlalchemy
+passlib
+bcrypt
+typing-extensions
+folium
+pandas
+flask
+flask-restful
+flask-jwt
+datetime
+pytz
+matplotlib
+justpy
